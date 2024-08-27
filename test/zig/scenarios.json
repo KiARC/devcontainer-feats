@@ -1,0 +1,30 @@
+{
+	"defaults": {
+		"image": "mcr.microsoft.com/devcontainers/base:focal",
+		"features": {
+			"ghcr.io/devcontainers/features/common-utils:1": {
+				"installZsh": false,
+				"installOhMyZsh": false,
+				"upgradePackages": false,
+				"username": "octocat"
+			},
+			"zig": {}
+		},
+		"remoteUser": "octocat"
+	},
+	"0.12.0": {
+		"image": "mcr.microsoft.com/devcontainers/base:focal",
+		"features": {
+			"ghcr.io/devcontainers/features/common-utils:1": {
+				"installZsh": false,
+				"installOhMyZsh": false,
+				"upgradePackages": false,
+				"username": "octocat"
+			},
+			"zig": {
+				"version": "0.12.0"
+			}
+		},
+		"remoteUser": "octocat"
+	}
+}

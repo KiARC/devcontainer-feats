@@ -1,0 +1,15 @@
+{
+	"id": "zig",
+	"version": "0.1.0",
+	"name": "Zig",
+	"description": "Zig language features",
+	"keywords": ["zig"],
+	"options": {
+		"version": {
+			"type": "string",
+			"default": "0.13.0",
+			"description": "Select or enter a zig version"
+		}
+	},
+	"installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
